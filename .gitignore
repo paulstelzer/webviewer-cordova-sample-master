@@ -1,0 +1,12 @@
+# OS X
+.DS_Store
+
+# Node
+node_modules
+package-lock.json
+
+# Cordova
+plugins
+
+# WebViewer
+WebViewer.zip

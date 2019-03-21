@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>NOTEBOOK</Machine>
+    <WindowsUser>paul</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>2efee6e0-4b43-11e9-b3d5-d97533615dfa</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Apache Cordova Team</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath></WindowsSdkPath>
+    <LayoutDir>D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\build\windows\Debug\AnyCPU\win10\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\build\windows\Debug\AnyCPU\win10\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\img\logo.png">
+      <PackagePath>www\img\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\core\assets\dragginghand.png">
+      <PackagePath>www\js\lib\core\assets\dragginghand.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\core\assets\hand.png">
+      <PackagePath>www\js\lib\core\assets\hand.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\butterfly.png">
+      <PackagePath>www\js\TestFiles\butterfly.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\cordova-js-src\confighelper.js">
+      <PackagePath>www\cordova-js-src\confighelper.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\cordova-js-src\splashscreen.js">
+      <PackagePath>www\cordova-js-src\splashscreen.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\index.js">
+      <PackagePath>www\js\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\core\CoreControls.js">
+      <PackagePath>www\js\lib\core\CoreControls.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\core\CoreWorker.js">
+      <PackagePath>www\js\lib\core\CoreWorker.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\core\CORSWorker.js">
+      <PackagePath>www\js\lib\core\CORSWorker.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\core\DecryptWorker.js">
+      <PackagePath>www\js\lib\core\DecryptWorker.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\core\external\decode.min.js">
+      <PackagePath>www\js\lib\core\external\decode.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\core\external\html2canvas.min.js">
+      <PackagePath>www\js\lib\core\external\html2canvas.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\core\external\jquery-3.2.1.min.js">
+      <PackagePath>www\js\lib\core\external\jquery-3.2.1.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\core\external\pako_inflate.min.js">
+      <PackagePath>www\js\lib\core\external\pako_inflate.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\core\external\Promise.js">
+      <PackagePath>www\js\lib\core\external\Promise.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\core\external\rawinflate.js">
+      <PackagePath>www\js\lib\core\external\rawinflate.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\core\pdf\PDFNet.js">
+      <PackagePath>www\js\lib\core\pdf\PDFNet.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\core\pdf\PDFworker.js">
+      <PackagePath>www\js\lib\core\pdf\PDFworker.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\core\pdf\ResizableWorker.js">
+      <PackagePath>www\js\lib\core\pdf\ResizableWorker.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\ui\build\webviewer-ui.min.js">
+      <PackagePath>www\js\lib\ui\build\webviewer-ui.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\webviewer.min.js">
+      <PackagePath>www\js\lib\webviewer.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\license-key.js">
+      <PackagePath>www\js\license-key.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\PDFATest.js">
+      <PackagePath>www\js\PDFATest.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\Setup.js">
+      <PackagePath>www\js\Setup.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\css\index.css">
+      <PackagePath>www\css\index.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\css\splashscreen.css">
+      <PackagePath>www\css\splashscreen.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\ui\build\style.css">
+      <PackagePath>www\js\lib\ui\build\style.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\files\webviewer-demo-annotated.xod">
+      <PackagePath>www\files\webviewer-demo-annotated.xod</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\core\assets\mime-types\test.xod">
+      <PackagePath>www\js\lib\core\assets\mime-types\test.xod</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\newsletter.xod">
+      <PackagePath>www\js\TestFiles\newsletter.xod</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\ui\build\index.html">
+      <PackagePath>www\js\lib\ui\build\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\simple-webpage.html">
+      <PackagePath>www\js\TestFiles\simple-webpage.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\core\assets\dragginghand.cur">
+      <PackagePath>www\js\lib\core\assets\dragginghand.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\core\assets\hand.cur">
+      <PackagePath>www\js\lib\core\assets\hand.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\core\assets\mime-types\test.mem">
+      <PackagePath>www\js\lib\core\assets\mime-types\test.mem</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\core\pdf\full\PDFNetC.gz.js.mem">
+      <PackagePath>www\js\lib\core\pdf\full\PDFNetC.gz.js.mem</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\core\pdf\full\PDFNetC.gz.mem">
+      <PackagePath>www\js\lib\core\pdf\full\PDFNetC.gz.mem</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\core\pdf\full\PDFNetCWasm.br.js.mem">
+      <PackagePath>www\js\lib\core\pdf\full\PDFNetCWasm.br.js.mem</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\core\assets\mime-types\test.nmf">
+      <PackagePath>www\js\lib\core\assets\mime-types\test.nmf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\core\pdf\full\PDFWorker.nmf">
+      <PackagePath>www\js\lib\core\pdf\full\PDFWorker.nmf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\core\pdf\full\PDFWorkerSubzero.nmf">
+      <PackagePath>www\js\lib\core\pdf\full\PDFWorkerSubzero.nmf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\core\pdf\SimpleWorker.nmf">
+      <PackagePath>www\js\lib\core\pdf\SimpleWorker.nmf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\core\assets\mime-types\test.pexe">
+      <PackagePath>www\js\lib\core\assets\mime-types\test.pexe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\core\pdf\SimpleWorker.pexe">
+      <PackagePath>www\js\lib\core\pdf\SimpleWorker.pexe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\core\assets\mime-types\test.res">
+      <PackagePath>www\js\lib\core\assets\mime-types\test.res</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\core\pdf\pdfnet.res">
+      <PackagePath>www\js\lib\core\pdf\pdfnet.res</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\core\assets\mime-types\test.wasm">
+      <PackagePath>www\js\lib\core\assets\mime-types\test.wasm</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\core\pdf\full\PDFNetCWasm.br.wasm">
+      <PackagePath>www\js\lib\core\pdf\full\PDFNetCWasm.br.wasm</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\ui\build\assets\pdftron.ico">
+      <PackagePath>www\js\lib\ui\build\assets\pdftron.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\ui\build\i18n\translation-en.json">
+      <PackagePath>www\js\lib\ui\build\i18n\translation-en.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\ui\build\i18n\translation-fr.json">
+      <PackagePath>www\js\lib\ui\build\i18n\translation-fr.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\ui\build\i18n\translation-nl.json">
+      <PackagePath>www\js\lib\ui\build\i18n\translation-nl.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\lib\ui\build\i18n\translation-zh_cn.json">
+      <PackagePath>www\js\lib\ui\build\i18n\translation-zh_cn.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\1Fplus.pdf">
+      <PackagePath>www\js\TestFiles\1Fplus.pdf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\3-new revised 1-29-03.pdf">
+      <PackagePath>www\js\TestFiles\3-new revised 1-29-03.pdf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\4.pdf">
+      <PackagePath>www\js\TestFiles\4.pdf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\addimage.pdf">
+      <PackagePath>www\js\TestFiles\addimage.pdf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\bookmark.pdf">
+      <PackagePath>www\js\TestFiles\bookmark.pdf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\BusinessCardTemplate.pdf">
+      <PackagePath>www\js\TestFiles\BusinessCardTemplate.pdf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\credit card numbers.pdf">
+      <PackagePath>www\js\TestFiles\credit card numbers.pdf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\doc_to_sign.pdf">
+      <PackagePath>www\js\TestFiles\doc_to_sign.pdf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\fish-rotated.pdf">
+      <PackagePath>www\js\TestFiles\fish-rotated.pdf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\fish.pdf">
+      <PackagePath>www\js\TestFiles\fish.pdf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\fish_stamped.pdf">
+      <PackagePath>www\js\TestFiles\fish_stamped.pdf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\form1.pdf">
+      <PackagePath>www\js\TestFiles\form1.pdf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\lorem_ipsum.pdf">
+      <PackagePath>www\js\TestFiles\lorem_ipsum.pdf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\newsletter.pdf">
+      <PackagePath>www\js\TestFiles\newsletter.pdf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\numbered.pdf">
+      <PackagePath>www\js\TestFiles\numbered.pdf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\tagged.pdf">
+      <PackagePath>www\js\TestFiles\tagged.pdf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\tiger.pdf">
+      <PackagePath>www\js\TestFiles\tiger.pdf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\TigerText.pdf">
+      <PackagePath>www\js\TestFiles\TigerText.pdf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\US061222892-a.pdf">
+      <PackagePath>www\js\TestFiles\US061222892-a.pdf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\Vector-Curve5.pdf">
+      <PackagePath>www\js\TestFiles\Vector-Curve5.pdf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\Visio-Home.pdf">
+      <PackagePath>www\js\TestFiles\Visio-Home.pdf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\dice.jpg">
+      <PackagePath>www\js\TestFiles\dice.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\peppers.jpg">
+      <PackagePath>www\js\TestFiles\peppers.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\signature.jpg">
+      <PackagePath>www\js\TestFiles\signature.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\dice.u3d">
+      <PackagePath>www\js\TestFiles\dice.u3d</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\font.ttf">
+      <PackagePath>www\js\TestFiles\font.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\form1_annots.xfdf">
+      <PackagePath>www\js\TestFiles\form1_annots.xfdf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\form1_data.xfdf">
+      <PackagePath>www\js\TestFiles\form1_data.xfdf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\form1_data.fdf">
+      <PackagePath>www\js\TestFiles\form1_data.fdf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\grayscale.tif">
+      <PackagePath>www\js\TestFiles\grayscale.tif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\multipage.tif">
+      <PackagePath>www\js\TestFiles\multipage.tif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\imagemask.dat">
+      <PackagePath>www\js\TestFiles\imagemask.dat</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\Misc-Fixed.pfa">
+      <PackagePath>www\js\TestFiles\Misc-Fixed.pfa</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\my_stream.txt">
+      <PackagePath>www\js\TestFiles\my_stream.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\simple-text.txt">
+      <PackagePath>www\js\TestFiles\simple-text.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\palm.jp2">
+      <PackagePath>www\js\TestFiles\palm.jp2</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\pdfnet.gif">
+      <PackagePath>www\js\TestFiles\pdfnet.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\pdftron.bmp">
+      <PackagePath>www\js\TestFiles\pdftron.bmp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\pdftron.pfx">
+      <PackagePath>www\js\TestFiles\pdftron.pfx</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\simple-emf.emf">
+      <PackagePath>www\js\TestFiles\simple-emf.emf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\simple-excel_2007.xlsx">
+      <PackagePath>www\js\TestFiles\simple-excel_2007.xlsx</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\simple-outlook.msg">
+      <PackagePath>www\js\TestFiles\simple-outlook.msg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\simple-powerpoint_2007.pptx">
+      <PackagePath>www\js\TestFiles\simple-powerpoint_2007.pptx</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\simple-publisher.pub">
+      <PackagePath>www\js\TestFiles\simple-publisher.pub</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\simple-rtf.rtf">
+      <PackagePath>www\js\TestFiles\simple-rtf.rtf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\simple-visio.vsd">
+      <PackagePath>www\js\TestFiles\simple-visio.vsd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\simple-webpage.mht">
+      <PackagePath>www\js\TestFiles\simple-webpage.mht</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\simple-word_2007.docx">
+      <PackagePath>www\js\TestFiles\simple-word_2007.docx</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\www\js\TestFiles\simple-xps.xps">
+      <PackagePath>www\js\TestFiles\simple-xps.xps</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\build\windows\Debug\AnyCPU\win10\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+D:\Paul\Downloads\webviewer-cordova-sample-master\webviewer-cordova-sample-master\platforms\windows\CordovaApp.Windows10.jsproj;neutral
